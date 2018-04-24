@@ -12,8 +12,6 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "That is commonly used in project based on the UIPickerView selector."
 
-  s.description  = "Project, we can through the controls for data selection."
-
   s.homepage     = "https://github.com/dreamCC/CJPickerView"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -26,6 +24,8 @@ Pod::Spec.new do |s|
 
   s.source_files  = "CJPickerView"
 
-  s.dependency "Masonry"
+  s.requires_arc  = true
+
+  s.dependency   "Masonry", "~> 1.1.0"
 
 end
