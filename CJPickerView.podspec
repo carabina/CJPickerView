@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CJPickerView"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "That is commonly used in project based on the UIPickerView selector."
 
   s.homepage     = "https://github.com/dreamCC/CJPickerView"
@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc  = true
 
-  s.dependency   "Masonry", "~> 1.1.0"
+  s.dependency   "Masonry"
 
 end
